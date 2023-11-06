@@ -1,0 +1,38 @@
+body {
+  background-image: url('https://th.bing.com/th/id/OIG.FQjAc4jhGDmLmq_O1MaD?w=270&h=270&c=6&r=0&o=5&dpr=1.1&pid=ImgGn');
+  background-size: cover;
+  text-align: center;
+}
+
+#container {
+  border: 2px solid blue;
+  padding: 10px;
+  display: flex;
+}
+
+#playerContainer {
+  flex: 1;
+  padding: 10px;
+}
+
+#player {
+  width: 100%;
+}
+
+#playlistContainer {
+  flex: 1;
+  padding: 10px;
+  overflow-y: auto;
+  height: 300px;
+}
+
+#playlist {
+  margin-right: 15px;
+}
+
+#socialMedia {
+  float: left;
+  width: 50%;
+  padding: 20px;
+  text-align: right;
+}
